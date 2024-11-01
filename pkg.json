@@ -1,0 +1,4 @@
+  "@pdfme/common": "file:../packages/common/dist",
+    "@pdfme/generator": "file:../packages/generator/dist",
+    "@pdfme/schemas": "file:../packages/schemas/dist",
+    "@pdfme/ui": "file:../packages/ui/dist",

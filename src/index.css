@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SF-Pro-Text-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Medium';
+  src: url('./fonts/SF-Pro-Text-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Light';
+  src: url('./fonts/Apercu-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Apercu Regular';
+  src: url('./fonts/Apercu-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Apercu Bold';
+  src: url('./fonts/Apercu-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+html, body {
+  margin: 0;
+  font-family: 'SF Pro Text';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* height: 100%; */
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+strong {
+  font-family: 'SF Pro Medium';
+}
+
+
