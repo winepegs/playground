@@ -27,3 +27,5 @@ test.pdf
 .vercel
 .aider*
 .env
+venv/
+.aider.*
